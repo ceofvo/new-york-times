@@ -40,7 +40,7 @@ function handleError () {
 }
   
 const asyncRequestObject = new XMLHttpRequest();
-asyncRequestObject.open('GET', 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=5hyZ79BIwdh5Q71OxGhv1sWi9MmW1Pt6');
+asyncRequestObject.open('GET', 'https://api.nytimes.com/svc/topstories/v2/home.json?api-key=ENTER-YOUR-API-KEY-HERE');
 asyncRequestObject.onload = handleSuccess;
 asyncRequestObject.onerror = handleError;
 asyncRequestObject.send();
